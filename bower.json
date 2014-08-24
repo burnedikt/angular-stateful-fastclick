@@ -6,7 +6,7 @@
     "Benedikt Reiser <benedikt.reiser@innoactive.de>"
   ],
   "description": "Overrides Angular's ng-click directive with a touch-optimied version, removing the 300 ms delay of webbrowsers.",
-  "main": "angular-fastlick.js",
+  "main": "lib/angular-fastlick.js",
   "keywords": [
     "angular",
     "fastclick",
