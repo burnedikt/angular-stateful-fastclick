@@ -16,6 +16,7 @@
     "click",
     "delay"
   ],
+  "dependencies": {},
   "license": "MIT",
   "private": true,
   "ignore": [
