@@ -1,15 +1,15 @@
-.clickable {
+.fastclickable {
   color: black;
   background-color: white;
   border: 1px dotted black;
   width: 150px;
   height: 150px;
 }
-.clickable.fastclick-active {
+.fastclickable.fastclick-active {
   background-color: green;
   color: red;
 }
-.clickable.fastclick-touched {
+.fastclickable.fastclick-touched {
   background-color: red;
   color: green;
 }
