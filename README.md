@@ -29,6 +29,14 @@ on desktops. More information can be found on https://github.com/benediktreiser/
 
 # How?
 
+This module overrides the overriden ngClick of the ngTouch module using the FastClick-library.
+
+To make use of the active states, the following CSS classes can be used:
+
+- `.fastclickable` - general class for any elements that are clickable, i.e. that are annotated by the ng-click directive
+- `.fastclick-touched` - class set as soon as a user touches a clickable element (corresponds to the ancient `:hover`)
+- `.fastclick-active` - class set as soon as a user tapped the element (corresponds to the ancient `:active`)
+
 # Dependencies
 
 This module extends the angular-touch module and requires it to be loaded before this lib, like so:
