@@ -17,7 +17,7 @@
     "delay"
   ],
   "dependencies": {
-    "fastclick": "benediktreiser/fastclick#~1.0.4"
+    "fastclick": "benediktreiser/fastclick#~master"
   },
   "license": "MIT",
   "private": true,
