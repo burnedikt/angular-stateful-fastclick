@@ -13,3 +13,14 @@
   background-color: red;
   color: green;
 }
+
+
+.scroller {
+  max-height: 300px;
+  overflow: auto;
+}
+.scrollable-element {
+  height: 200px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
