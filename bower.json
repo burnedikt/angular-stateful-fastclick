@@ -17,7 +17,7 @@
     "delay"
   ],
   "dependencies": {
-    "fastclick": "benediktreiser/fastclick#master"
+    "fastclick": "benediktreiser/fastclick#rebuild-from-ftlabs"
   },
   "license": "MIT",
   "private": true,
