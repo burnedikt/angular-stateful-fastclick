@@ -5,13 +5,13 @@
   width: 150px;
   height: 150px;
 }
-.fastclickable.fastclick-active {
-  background-color: green;
-  color: red;
-}
 .fastclickable.fastclick-touched {
   background-color: red;
   color: green;
+}
+.fastclickable.fastclick-active {
+  background-color: green;
+  color: red;
 }
 
 
