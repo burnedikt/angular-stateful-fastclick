@@ -11,3 +11,9 @@
   <div class="scrollable-element" ng-click="test()"></div>
   <div class="scrollable-element" ng-click="test()"></div>
 </div>
+
+<h1>Nested</h1>
+<div class="outer" ng-click="test()">
+  <div>This box's background- and text-color should change on tapping / releasing</div>
+  <div class="inner" ng-click="innerTest($event)">This box's background- and text-color should change on tapping / releasing</div>
+</div>

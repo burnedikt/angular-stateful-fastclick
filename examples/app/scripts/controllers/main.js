@@ -11,5 +11,10 @@ angular.module('examplesApp')
   .controller('MainCtrl', function ($scope) {
     $scope.test = function() {
       console.log('test worked');
-    }
+    };
+    $scope.innerTest = function(e) {
+      console.log('nested test worked');
+      // stop event from propagating
+      e.stopPropagation();
+    };
   });
