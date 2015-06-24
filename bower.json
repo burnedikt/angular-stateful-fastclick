@@ -1,23 +1,24 @@
 {
-  "name": "angular-fastclick",
+  "name": "angular-stateful-fastclick",
   "version": "0.1.0",
-  "homepage": "https://github.com/benediktreiser/angular-fastclick",
+  "homepage": "https://github.com/benediktreiser/angular-stateful-fastclick",
   "authors": [
-    "Benedikt Reiser <benedikt.reiser@innoactive.de>"
+    "Benedikt Reiser <benedikt.reiser@gmail.com>"
   ],
-  "description": "Overrides Angular's ng-click directive with a touch-optimied version, removing the 300 ms delay of webbrowsers.",
+  "description": "Overrides Angular's ng-click directive with a touch-optimized version, removing the 300 ms delay of webbrowsers and adding different touch and active states.",
   "main": "lib/angular-fastclick.js",
   "keywords": [
     "angular",
     "fastclick",
     "touch",
     "angular-touch",
+    "ng-click",
     "fast",
     "click",
     "delay"
   ],
   "dependencies": {
-    "fastclick": "benediktreiser/fastclick#rebuild-from-ftlabs"
+    "stateful-fastclick": "~1.0.0"
   },
   "license": "MIT",
   "private": true,
