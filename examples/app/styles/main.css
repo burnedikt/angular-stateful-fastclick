@@ -14,6 +14,14 @@
   color: red;
 }
 
+.fastclickable.inner.fastclick-touched {
+  background-color: red;
+  color: green;
+}
+.fastclickable.inner.fastclick-active {
+  background-color: maroon;
+  color: yellow;
+}
 
 .scroller {
   max-height: 300px;
