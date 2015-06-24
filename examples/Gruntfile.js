@@ -81,7 +81,9 @@ module.exports = function (grunt) {
                 '/bower_components',
                 connect.static('./bower_components')
               ),
-              connect.static(appConfig.app)
+              connect.static(appConfig.app),
+              connect().use('/lib',
+                connect.static('../lib'))
             ];
           }
         }
@@ -166,7 +168,10 @@ module.exports = function (grunt) {
       },
       app: {
         src: ['<%= yeoman.app %>/index.html'],
-        ignorePath:  /\.\.\//
+        ignorePath:  /\.\.\//,
+        exclude: [
+          'bower_components/angular-stateful-fastclick/'
+        ]
       }
     },
 
