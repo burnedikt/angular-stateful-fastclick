@@ -6,7 +6,7 @@
     "json3": "~3.3.1",
     "es5-shim": "~3.1.0",
     "angular-touch": "1.2.16",
-    "angular-fastclick": "benediktreiser/angular-fastclick#new-fastclick-lib"
+    "angular-stateful-fastclick": "~1.0.0"
   },
   "devDependencies": {
     "angular-mocks": "1.2.16",
