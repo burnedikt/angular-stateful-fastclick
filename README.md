@@ -1,6 +1,6 @@
-# Angular Fastclick
+# Angular stateful Fastclick
 
-Integrating the FTLabs' fastlick library with angular's ng-click-directive.
+Angular module replacing the ng-click directive with an implementation removing the click delay on mobile browsers. Uses the [stateful-fastclick](https://github.com/burnedikt/stateful-fastclick) and [fastclick](https://github.com/ftlabs/fastclick) libraries. Provides functionality to have different states on touch devices in correspondence to the mouse-based `:hover` and `:active`.
 
 # Why?
 
@@ -25,7 +25,7 @@ b) the user stops touching and executes a click / tap that way
 
 For this reason, we extended the excellent FastClick-library with two differnt states
 `touched` and `active`, which correspond to the ancient `:hover` and `:active` CSS-pseudo-classes
-on desktops. More information can be found on https://github.com/benediktreiser/fastclick.
+on desktops. More information can be found on https://github.com/burnedikt/stateful-fastclick.
 
 # How?
 
@@ -39,8 +39,9 @@ To make use of the active states, the following CSS classes can be used:
 
 # Dependencies
 
-This module extends the angular-touch module and requires it to be loaded before this lib, like so:
-(The FastClick-lib is also required but installed automatically via bower)
+- `angular-touch`: This module extends the angular-touch module and requires it to be loaded before this lib
+- `stateful-fastclick`: obviously, this is the core of the modified ng-click directive
+- `classlist`: stateful-fastclick makes use of classlist. To use staeful-fastclick on IE < 9, we need the [classlist-shim](https://github.com/components/classList.js), which is automatically installed via bower
 
 ```
 <script src="bower_components/angular-touch/angular-touch.js"></script>
