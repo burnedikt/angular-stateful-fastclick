@@ -18,6 +18,7 @@
     "delay"
   ],
   "dependencies": {
+    "angular-touch": "^1.3",
     "stateful-fastclick": "~1.0.0"
   },
   "license": "MIT",
