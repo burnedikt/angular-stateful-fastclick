@@ -47,5 +47,5 @@ To make use of the active states, the following CSS classes can be used:
 <script src="bower_components/angular-touch/angular-touch.js"></script>
 <script src="bower_components/fastclick/lib/fastclick.js"></script>
 <script src="bower_components/stateful-fastclick/dist/stateful-fastclick.js"></script>
-<script src="bower_components/angular-fastclick/lib/angular-fastclick.js"></script>
+<script src="bower_components/angular-stateful-fastclick/lib/angular-stateful-fastclick.js"></script>
 ```
